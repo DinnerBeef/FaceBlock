@@ -1,2 +1,2 @@
 # FaceBlock
-Adds Blocks With Faces On Them To The Game
+Adds Blocks With Faces To Them To The Game

@@ -1,6 +1,7 @@
 package beef.faceblock.proxy;
 
 import beef.faceblock.Blocks.SlowPoke101;
+import beef.faceblock.Faceblock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -10,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber
+@Mod.EventBusSubscriber(modid = Faceblock.MODID)
 public class CommonProxy {
     public void preInit(FMLPreInitializationEvent e) {
     }

@@ -2,8 +2,10 @@ package beef.faceblock.proxy;
 
 import beef.faceblock.Blocks.SlowPoke101;
 import beef.faceblock.Faceblock;
+import beef.faceblock.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -25,11 +27,11 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new SlowPoke101());
-
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
+        event.getRegistry().register(new ItemBlock(ModBlocks.SlowPoke101).setRegistryName(SlowPoke101.SLOWPOKE101));
     }
 }
 

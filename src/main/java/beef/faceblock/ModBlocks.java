@@ -5,6 +5,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 
-    @GameRegistry.ObjectHolder("faceblock:SlowPoke101")
+    @GameRegistry.ObjectHolder("faceblock:slowpoke101")
     public static SlowPoke101 SlowPoke101;
 }

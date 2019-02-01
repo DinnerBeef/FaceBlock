@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "faceblock:loneztar" },
+    "inventory": { "model": "faceblock:loneztar" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "faceblock:tfox83" },
+    "inventory": { "model": "faceblock:tfox83" }
+  }
+}

@@ -1,9 +1,9 @@
 package beef.faceblock.proxy;
 
-import beef.faceblock.Blocks.SlowPoke101;
-import beef.faceblock.Blocks.TFox83;
 import beef.faceblock.Faceblock;
 import beef.faceblock.ModBlocks;
+import beef.faceblock.blocks.SlowPoke101;
+import beef.faceblock.blocks.TFox83;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -33,8 +33,8 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(new ItemBlock(ModBlocks.SlowPoke101).setRegistryName(SlowPoke101.SLOWPOKE101));
-        event.getRegistry().register(new ItemBlock(ModBlocks.TFox83).setRegistryName(TFox83.TFOX83));
+        event.getRegistry().register(new ItemBlock(ModBlocks.slowPoke101).setRegistryName(SlowPoke101.SLOWPOKE101));
+        event.getRegistry().register(new ItemBlock(ModBlocks.tFox83).setRegistryName(TFox83.TFOX83));
     }
 }
 

@@ -12,6 +12,7 @@ out
 *.iws
 *.iml
 .idea
+*.iws*
 
 # gradle
 build
@@ -20,3 +21,4 @@ build
 # other
 eclipse
 run
+out

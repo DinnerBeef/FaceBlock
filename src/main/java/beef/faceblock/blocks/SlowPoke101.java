@@ -1,4 +1,4 @@
-package beef.faceblock.Blocks;
+package beef.faceblock.blocks;
 
 import beef.faceblock.Faceblock;
 import net.minecraft.block.Block;
@@ -6,14 +6,14 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.ResourceLocation;
 
-public class TFox83 extends Block {
+public class SlowPoke101 extends Block {
 
-    public static final ResourceLocation TFOX83 = new ResourceLocation(Faceblock.MODID, "tfox83");
+    public static final ResourceLocation SLOWPOKE101 = new ResourceLocation(Faceblock.MODID, "slowpoke101");
 
-    public TFox83() {
+    public SlowPoke101() {
         super(Material.ROCK);
-        setRegistryName(TFOX83);
-        setUnlocalizedName(Faceblock.MODID + ".tfox83");
+        setRegistryName(SLOWPOKE101);
+        setUnlocalizedName(Faceblock.MODID + ".slowpoke101");
         setHardness(2);
         setSoundType(SoundType.STONE);
         setCreativeTab(Faceblock.FBTabs);

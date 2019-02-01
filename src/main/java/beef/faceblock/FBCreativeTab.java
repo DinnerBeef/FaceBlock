@@ -15,6 +15,6 @@ public class FBCreativeTab extends CreativeTabs {
     }
     @Override
     public String getTranslatedTabLabel() {
-        return I18n.translateToLocal("FaceBlock Tab");
+        return I18n.translateToLocal("FaceBlock");
     }
 }

@@ -1,6 +1,6 @@
 [
 {
-  "modid": "FaceBlock",
+  "modid": "faceblock",
   "name": "Face Block",
   "description": "Add Blocks With Faces Into the game.",
   "version": "${0.0.01}",

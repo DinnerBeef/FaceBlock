@@ -1,4 +1,4 @@
-package beef.faceblock.Blocks;
+package beef.faceblock.blocks;
 
 import beef.faceblock.Faceblock;
 import net.minecraft.block.Block;
@@ -12,8 +12,8 @@ public class SlowPoke101 extends Block {
 
     public SlowPoke101() {
         super(Material.ROCK);
-        setRegistryName(SLOWPOKE101);
-        setUnlocalizedName(Faceblock.MODID + ".slowpoke101");
+        setRegistryName("slowpoke101");
+        setUnlocalizedName("slowpoke101");
         setHardness(2);
         setSoundType(SoundType.STONE);
         setCreativeTab(Faceblock.FBTabs);

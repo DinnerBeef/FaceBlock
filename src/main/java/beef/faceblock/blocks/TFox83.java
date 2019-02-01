@@ -1,4 +1,4 @@
-package beef.faceblock.Blocks;
+package beef.faceblock.blocks;
 
 import beef.faceblock.Faceblock;
 import net.minecraft.block.Block;
@@ -12,8 +12,8 @@ public class TFox83 extends Block {
 
     public TFox83() {
         super(Material.ROCK);
-        setRegistryName(TFOX83);
-        setUnlocalizedName(Faceblock.MODID + ".tfox83");
+        setRegistryName("tfox83");
+        setUnlocalizedName("tfox83");
         setHardness(2);
         setSoundType(SoundType.STONE);
         setCreativeTab(Faceblock.FBTabs);

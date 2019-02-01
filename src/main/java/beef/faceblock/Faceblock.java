@@ -1,9 +1,7 @@
 package beef.faceblock;
 
-import beef.faceblock.ModBlocks;
 import beef.faceblock.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -34,7 +32,6 @@ import org.apache.logging.log4j.Logger;
         logger = event.getModLog();
         proxy.preInit(event);
     }
-
     @Mod.EventHandler
     public void init(FMLInitializationEvent e) {
         proxy.init(e);

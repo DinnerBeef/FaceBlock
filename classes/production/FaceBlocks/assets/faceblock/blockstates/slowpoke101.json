@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "faceblock:slowpoke101" },
+    "inventory": { "model": "faceblock:slowpoke101" }
+  }
+}

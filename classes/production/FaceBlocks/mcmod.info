@@ -1,0 +1,16 @@
+[
+{
+  "modid": "faceblock",
+  "name": "FaceBlock",
+  "description": "Add Blocks With Faces Into the game.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DinnerBeef"],
+  "credits": "Thanks To Gaz,Manmaed,Lat,Sune,",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

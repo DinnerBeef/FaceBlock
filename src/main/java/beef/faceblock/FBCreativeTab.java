@@ -11,7 +11,7 @@ public class FBCreativeTab extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(ModBlocks.slowPoke101);
+        return new ItemStack(ModBlocks.dinnerBeef);
     }
     @Override
     public String getTranslatedTabLabel() {

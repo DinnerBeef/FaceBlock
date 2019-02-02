@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = Faceblock.MODID, name = Faceblock.MODNAME, version = Faceblock.MODVERSION, dependencies = "required-after:forge@[14.23.5.2808,)", useMetadata = true) public class Faceblock {
 
     public static final String MODID = "faceblock";
-    public static final String MODNAME = "FaceBlock";
+    public static final String MODNAME = "faceblock";
     public static final String MODVERSION= "0.0.1";
 
     @SidedProxy(clientSide = "beef.faceblock.proxy.ClientProxy", serverSide = "beef.faceblock.proxy.ServerProxy")
